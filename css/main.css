@@ -128,16 +128,13 @@
     text-shadow: 0 0 10px #c53f3f7e, 0 0 20px #c53f3f7e, 0 0 30px #c53f3f7e, 0 0 40px #c53f3f7e, 0 0 50px #c53f3f7e;
   }
 
-  .icon-container {
-    position: fixed;
+  #logo {
+    position: absolute;
     top: 10px;
-    left: 5px;
-    z-index: 9999;
+    left: 4px;
   }
   
-  .icon-container img {
-    width: 70px;
-    height: 70px;
+  #logo img {
+    width: 70px; /* Здесь можно задать нужные размеры для вашего логотипа */
   }
-
   

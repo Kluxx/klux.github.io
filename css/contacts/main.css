@@ -69,3 +69,13 @@
     margin-bottom: 3px;
     color: #ffcdcd;
   }
+
+  #logo {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+  }
+  
+  #logo img {
+    width: 70px; /* Здесь можно задать нужные размеры для вашего логотипа */
+  }
