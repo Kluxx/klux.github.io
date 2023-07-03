@@ -7,3 +7,12 @@ glowingText.addEventListener("mouseover", function() {
 glowingText.addEventListener("mouseout", function() {
     glowingText.classList.remove("glow");
 });
+
+
+
+setInterval(function () {
+    glowingText.classList.add("glow")
+    setTimeout(function () {
+        glowingText.classList.remove("glow");
+    }, 3000);
+  }, 15000); // Создаем новую частицу каждую секунду (60 кадров в секунду)

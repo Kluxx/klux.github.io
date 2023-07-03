@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/stylemercanie.css">
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/scrollbar.css">
   <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
   <link type="Image/x-icon" href="images/favicon.ico" rel="icon">
 </head>
@@ -20,18 +21,19 @@
     </div>
     <a href="contacts.html" class="dark-button">Контакты</a>
   </header>
-  <div class="container">
-    <div class="content">
-      <h2 id="glowing-text" style="font-family: Rostov; font-size: 30px;">Добро пожаловать в мое портфолио.</h2>
-      <p style="font-family: 'Courier New', Courier, monospace;" id="my-text">Привет, я Klux. Я Python и Java разработчик. Сейчас работаю в сфере майнкрафт плагинов и дискорд ботов. Начал изучать GLua</p>
+    <div class="container">
+      <canvas id="particle-canvas"></canvas>
+      <div class="content">
+        <h2 id="glowing-text" style="font-family: Rostov; font-size: 30px;">Добро пожаловать в мое портфолио.</h2>
+        <p style="font-family: 'Courier New', Courier, monospace;" id="my-text">Привет, я Klux. Я Python и Java разработчик. Сейчас работаю в сфере майнкрафт плагинов и дискорд ботов. Начал изучать GLua</p>
+      </div>
+      <div class="content">
+        <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 35px;">Мои работы:</h2>
+        <p style="font-size: large; font-family: serif;">Spigot плагин Amode, на версию майнкрафт 1.16.5<br>
+          <a href="https://www.spigotmc.org/resources/adminmode.104872/" target="_blank">Ссылка</a>
+        </p>
+      </div>
     </div>
-    <div class="content">
-      <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 35px;">Мои работы:</h2>
-      <p style="font-size: large; font-family: serif;">Spigot плагин Amode, на версию майнкрафт 1.16.5<br>
-        <a href="https://www.spigotmc.org/resources/adminmode.104872/" target="_blank">Ссылка</a>
-      </p>
-    </div>
-  </div>
   <footer>
     <div class="cont">
       <div>
@@ -47,5 +49,6 @@
   <script src="js/glowingtext.js"></script>
   <script src="js/scrollbar.js"></script>
   <script src="js/iglow.js"></script>
+  <script src="js/canvas.js"></script>
 </body>
 </html>
