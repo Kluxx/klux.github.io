@@ -128,20 +128,16 @@
     text-shadow: 0 0 10px #c53f3f7e, 0 0 20px #c53f3f7e, 0 0 30px #c53f3f7e, 0 0 40px #c53f3f7e, 0 0 50px #c53f3f7e;
   }
 
-  .iglow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    pointer-events: none;
+  .icon-container {
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    z-index: 9999;
   }
-
-  .glow.active {
-    opacity: 1;
+  
+  .icon-container img {
+    width: 70px;
+    height: 70px;
   }
 
   

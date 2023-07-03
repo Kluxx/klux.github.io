@@ -1,0 +1,71 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.hdqwalls.com/download/anime-girl-alone-road-green-eyes-8k-13-7680x4320.jpg');
+    background-size: cover;
+    color: #333;
+  }
+  
+  header {
+    background-color: #22222249;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    border: rgb(255, 0, 0);
+  }
+  
+  .contact-card {
+    background-color: #833c46ab;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+    border-color: rgb(56, 12, 112);
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .details {
+    margin-left: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #272727;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #ffcdcd;
+  }
