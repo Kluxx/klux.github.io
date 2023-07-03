@@ -15,6 +15,17 @@
     height: 100%;
   }
 
+  img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 20px 0;
+  }
+
   /* Header styles */
   header {
     /*background-color: #333;*/
@@ -40,7 +51,7 @@
   @font-face { 
     font-family: 'Rostov'; 
     src: url('fonts/rostov.ttf'); 
- }
+  }
 
   /* Main content styles */
 
@@ -55,6 +66,33 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  /* Стилизация полосы прокрутки */
+  ::-webkit-scrollbar {
+    width: 10px; /* Ширина скроллбара */
+  }
+
+  /* Фон скроллбара */
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+
+  /* Цвет полоски прокрутки */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+
+  /* При наведении на скроллбар */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+  .cont {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .content {
@@ -88,6 +126,22 @@
 
   .glow {
     text-shadow: 0 0 10px #c53f3f7e, 0 0 20px #c53f3f7e, 0 0 30px #c53f3f7e, 0 0 40px #c53f3f7e, 0 0 50px #c53f3f7e;
+  }
+
+  .iglow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+  }
+
+  .glow.active {
+    opacity: 1;
   }
 
   

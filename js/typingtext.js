@@ -2,7 +2,7 @@ printText( document.getElementById( 'my-text' ) );
 
 function printText( el ){
 
-	let letterTimeout = 100
+	let letterTimeout = 60
 
 	let text = el.innerHTML
 	let i = 1
