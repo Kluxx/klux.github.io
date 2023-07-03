@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝐊𝐥𝐮𝐱</title>
+  <style>
+    /* Global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+    }
+
+    /* Header styles */
+    header {
+      /*background-color: #333;*/
+      background-image: url('https://i.pinimg.com/564x/93/ff/42/93ff42c9e3c0ae1dbc939c77fca8f109.jpg');
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    a {
+    	color: #BD293E;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    p {
+    	padding: 20px;
+    }
+
+    /* Main content styles */
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(''); /* Image URL will be set dynamically using JavaScript */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .content {
+      text-align: center;
+      color: #fff;
+      max-width: 600px;
+      padding: 12px;
+    }
+
+    /* Button styles */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2E6CA3;
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Портфолио Klux'a</h1>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h2>Добро пожаловать в мое портфолио.</h2>
+      <p>Привет, я Klux. Я Python и Java разработчик. Сейчас работаю в сфере майнкрафт плагинов и дискорд ботов. Начал изучать GLua</p>
+    </div>
+    <div class="content">
+      <h2>Мои работы:</h2>
+      <p>Spigot плагин Amode, на версию майнкрафт 1.16.5 || <a href="https://www.spigotmc.org/resources/adminmode.104872/" target="_blank">Ссылка</a></p>
+      <br>
+      <a class="button" href="https://discord.gg/Yyn4hPvTJ4">Discord Server</a>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript code to set the background image
+
+    const imageFile = 'images/image.jpg'; // Update this with your own image file path
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const container = document.querySelector('.container');
+      container.style.backgroundImage = `url('${imageFile}')`;
+    });
+  </script>
+</body>
+</html>
