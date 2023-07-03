@@ -28,11 +28,10 @@
 
   /* Header styles */
   header {
-    /*background-color: #333;*/
     background-image: url('https://i.pinimg.com/564x/93/ff/42/93ff42c9e3c0ae1dbc939c77fca8f109.jpg');
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 20px; 
+    text-align: right;
   }
 
   a {
@@ -40,6 +39,7 @@
   }
 
   h1 {
+    text-align: center;
     margin: 0;
     font-family: Georgia;
   }
